@@ -1,0 +1,14 @@
+Contoh ini dibaca untuk memahami konsep; tidak perlu menginstal Java/C++ dalam
+praktikum PHP.
+
+// Java: traditional method overloading
+class Calculator {
+ int add(int a, int b) { return a + b; }
+ int add(int a, int b, int c) { return a + b + c; }
+}
+// C++: traditional function/method overloading
+class Calculator {
+public:
+ int add(int a, int b) { return a + b; }
+ int add(int a, int b, int c) { return a + b + c; }
+};
